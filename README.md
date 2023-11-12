@@ -1,4 +1,5 @@
 # NPLP
+This repo provides code for our work on "Nasopharyngeal lymphatic plexus is a hub for cerebrospinal fluid drainage".
 
 # Source code
 R script for reproducing the results
