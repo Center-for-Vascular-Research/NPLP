@@ -1,10 +1,12 @@
 # Nasopharynx data (with mm10 reference)
-# 2023-02-20
+
+library(dplyr)
+library(Seurat)
 
 wd = "~/Projects/Nasopharynx/Nphx"
 setwd(wd)
 source("~/Projects/Organotypic_LEC/pre_processing_SS3.R")
-library(dplyr)
+
 adult_matrix = make_count_matrix_from_fc_out(
   fc_dir = "./Adult/FC_OUT/combined.counts",
   gtf_dir = "~/Reference/ss3/gencode.vM16.primary_assembly.annotation.gtf"
